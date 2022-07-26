@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweety Pet</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Signika+Negative&family=Poppins&family=Mali&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- internal link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link type="image/png" sizes="16x16" rel="icon" href="https://cdn-icons-png.flaticon.com/512/7304/7304189.png">
+</head>
+<body>
+    <section id="top">
+        <div class="container-fluid bg-1 pb-5 top-container">
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <img src="https://cdn-icons-png.flaticon.com/512/7304/7304189.png" alt="Sweety Pet Logo" class="img-fluid logo me-3 my-2">
+                <a class="navbar-brand fs-1 font-berkshire c-1" href="#">Sweety Pet</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto fs-5 text-center">
+                        <li class="nav-item px-3">
+                            <a class="nav-link c-1" href="#middle">Pet Center & Care</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link c-1" href="#middle">Pet Hotel & Cafe</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link c-1" href="#petshop">Pet Shop</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link c-1" href="#membership">Membership</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- introduction -->
+            <div class="row pt-5 font-poppins align-items-center">
+                <div class="col-lg-7">
+                    <h1 class="font-signika intro-title my-4 c-1">Hello Pet Lovers Indonesia!</h1>
+                    <h4 class="font-signika intro-desc c-2">Nikmati Berbagai Layanan dan Produk Spesial dari Sweety Pets untuk Anabul Kesayangan Anda Dalam Satu Aplikasi</h4>
+                    <div class="row mt-4 text-center text-white icon">
+                        <div class="col-3 col-md-2">
+                            <img class="img-fluid w-75" src="https://cdn-icons-png.flaticon.com/512/4787/4787210.png" alt="pet-center-image">
+                            <p class="intro-p">Pet Center & Care</p>
+                        </div>
+                        <div class="col-3 col-md-2">
+                            <img class="img-fluid w-75" src="https://cdn-icons-png.flaticon.com/512/4787/4787167.png" alt="pet-house-image">
+                            <p class="intro-p">Pet Hotel & Cafe</p>
+                        </div>
+                        <div class="col-3 col-md-2">
+                            <img class="img-fluid w-75" src="https://cdn-icons-png.flaticon.com/512/4787/4787205.png" alt="pet-shop-image">
+                            <p class="intro-p">Pet Shop</p>
+                        </div>
+                        <div class="col-3 col-md-2">
+                            <img class="img-fluid w-75" src="https://cdn-icons-png.flaticon.com/512/4787/4787100.png" alt="pet-care-image">
+                            <p class="intro-p">Membership</p>
+                        </div>
+                    </div>
+                    <h5 class="font-signika mt-3 c-2"><span class="font-berkshire c-1">SweetyPet App</span> - Download for Free on Ios and Android</h5>
+                    <button type="button" class="btn btn-outline-light mt-1 me-3 download"><i class="ri-apple-fill"></i> Download</button>
+                    <button type="button" class="btn btn-outline-light mt-1 download"><i class="ri-google-play-fill"></i> Download</button>
+                </div>
+                <div class="col-lg-5">
+                    <img class="img-intro img-fluid mx-auto d-block" src="https://cdn-icons-png.flaticon.com/512/4645/4645768.png" alt="intro-image">
+                </div>
+            </div>
+        </div>     
+    </section>
+    <section id="middle">
+        <div class="container-fluid bg-2 text-center py-5 font-poppins">
+            <div class="row mt-2 pet-center-title">
+                <div class="col-lg-6 px-5 mb-3">
+                    <h1 class="py-3"><span class="font-berkshire">Sweety Pet</span> Center</h1>
+                    <p class="pet-desc">Memberikan berbagai layanan terpusat dalam 1 tempat. Anda dapat membeli berbagai kebutuhan anabul dalam petshop, berkonsultasi dengan dokter hewan terbaik dan melakukan grooming dalam petcare </p>
+                </div>
+                <div class="col-lg-6 px-5 mb-3 pet-hotel-title">
+                    <h1 class="py-3"><span class="font-berkshire">Sweety Pet</span> Hotel & Cafe</h1>
+                    <p class="pet-desc">Memberikan anda tempat spesial yang hangat dan nyaman untuk melakukan quality time bersama anabul kesayangan anda</p>
+                </div>
+                <div class="col-lg-6 pet-center">
+                    <div id="pet-center-carousel" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#pet-center-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#pet-center-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#pet-center-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#pet-center-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active text-center">
+                                <h5><strong>Angela Sweety Pet</strong></h5>
+                                <h6 class="address">Jakarta Barat <br><p>Jl. Gatot Subroto No.25</p></h6>
+                                <img src="images/petshop1.jpg" class="d-block pet-center-img img-fluid mx-auto rounded" alt="..."> 
+                            </div>
+                            <div class="carousel-item text-center">
+                                <h5><strong>Bonnie Sweety Pet</strong></h5>
+                                <h6 class="address">Jakarta Selatan <br><p>Jl. Adi Sucipto No.56</p></h6>
+                                <img src="images/petshop2.jpg" class="d-block pet-center-img img-fluid mx-auto rounded" alt="...">  
+                            </div>
+                            <div class="carousel-item text-center">
+                                <h5><strong>Calista Sweety Pe</strong>t</h5>
+                                <h6 class="address">Tangerang <br><p>Jl. Ahmad Yani No.10</p></h6>
+                                <img src="images/petshop3.jpg" class="d-block pet-center-img img-fluid mx-auto rounded" alt="...">  
+                            </div>
+                            <div class="carousel-item text-center">
+                                <h5><strong>Dream Sweety Pet</strong></h5>
+                                <h6 class="address">Bandung <br><p>Jl. RA Kartini No.105</p></h6>
+                                <img src="images/petshop4.jpg" class="d-block pet-center-img img-fluid mx-auto rounded" alt="...">  
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#pet-center-carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#pet-center-carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 pet-hotel">
+                    <div id="pet-hotel-carousel" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#pet-hotel-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#pet-hotel-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active text-center">
+                                <h5><strong>Allesia Pet Hotel & Cafe</strong></h5>
+                                <h6 class="address">Jakarta Pusat <br><p>Jl. Jenderal Sudirman No.231</p></h6>
+                                <img src="images/pethouse1.jpeg" class="d-block pet-center-img img-fluid mx-auto rounded" alt="...">  
+                            </div>
+                            <div class="carousel-item text-center">
+                                <h5><strong>Brian Pet Hotel & Cafe</strong></h5>
+                                <h6 class="address">Jakarta Selatan <br><p>Jl. Kapitan Pattimura No.35</p></h6>
+                                <img src="images/pethouse2.jpg" class="d-block pet-center-img img-fluid mx-auto rounded" alt="...">  
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#pet-hotel-carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#pet-hotel-carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+    <section id="petshop">
+        <div class="container-fluid bg-1 py-5 font-poppins">
+            <h1 class="py-3 text-center c-1"><span class="font-berkshire">Sweety Pet</span> Shop</h1>
+            <h5 class="text-center c-1">Belanja berbagai kebutuhan anabul secara online dengan praktis, aman, dan nyaman</h5>
+            <div class="text-center mt-3">
+                <button type="button" class="btn btn-outline-light btn-selengkapnya c-1"><i class="ri-shopping-cart-2-line"></i> Selengkapnya ...</button>
+            </div>
+            <h1 class="text-center great-deals mt-5 c-1">Great Deals!!!</h1>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3 px-3 py-3 pet-shop-card-container">
+                    <div class="card bg-3">
+                        <img src="images/monge.jpg" class="card-img-top px-2 py-2" alt="monge-image">
+                        <div class="card-body shop-card">
+                            <h6 class="card-title">Monge Fresh Wet Dog Food All Varian 100gr</h6>
+                            <p class="card-text">⭐⭐⭐⭐⭐ 2146 Review</p>
+                            <h4 class="card-text">Rp 39.000 <span class="fs-6 text-danger"><del>Rp 59.000</del></span></h4>
+                            <a href="#" class="btn bg-1 c-1 btn-shop"><i class="ri-shopping-cart-line"></i></a>
+                            <a href="#" class="btn bg-1 c-1 btn-shop btn-shop-p">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 px-3 py-3 pet-shop-card-container">
+                    <div class="card bg-3">
+                        <img src="images/pedigree.jpg" class="card-img-top px-2 py-2" alt="pedigree-image">
+                        <div class="card-body shop-card">
+                            <h6 class="card-title">Pedigree Dry Dog Food For Adult 10kg</h6>
+                            <p class="card-text">⭐⭐⭐⭐⭐ 5321 Review</p>
+                            <h4 class="card-text">Rp 169.000 <span class="fs-6 text-danger"><del>Rp 259.000</del></span></h4>
+                            <a href="#" class="btn bg-1 c-1 btn-shop"><i class="ri-shopping-cart-line"></i></a>
+                            <a href="#" class="btn bg-1 c-1 btn-shop">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 px-3 py-3 pet-shop-card-container">
+                    <div class="card bg-3">
+                        <img src="images/dog-choize.jpg" class="card-img-top px-2 py-2" alt="choize-image">
+                        <div class="card-body shop-card">
+                            <h6 class="card-title">Dog Choize Dry Dog Food BEEF For Adult 800gr</h6>
+                            <p class="card-text">⭐⭐⭐⭐ 1212 Review</p>
+                            <h4 class="card-text">Rp 59.000 <span class="fs-6 text-danger"><del>Rp 99.000</del></span></h4>
+                            <a href="#" class="btn bg-1 c-1 btn-shop"><i class="ri-shopping-cart-line"></i></a>
+                            <a href="#" class="btn bg-1 c-1 btn-shop">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 px-3 py-3 pet-shop-card-container">
+                    <div class="card bg-3">
+                        <img src="images/toy.jpg" class="card-img-top px-2 py-2" alt="toy-image">
+                        <div class="card-body shop-card">
+                            <h6 class="card-title">Bone Pet Toy Orange, Yellow, Pink, and Green</h6>
+                            <p class="card-text">⭐⭐⭐⭐ 453 Review</p>
+                            <h4 class="card-text">Rp 15.000 <span class="fs-6 text-danger"><del>Rp 25.000</del></span></h4>
+                            <a href="#" class="btn bg-1 c-1 btn-shop"><i class="ri-shopping-cart-line"></i></a>
+                            <a href="#" class="btn bg-1 c-1 btn-shop">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="membership">
+        <div class="container-fluid bg-2 py-5 font-poppins">
+            <h1 class="py-3 text-center"><span class="font-berkshire">Sweety Pet</span> Membership</h1>
+            <h5 class="text-center">Bergabunglah menjadi salah satu member dari Sweety Pet <br> Nikmati extra benefit dengan harga yang sangat menarik</h5>
+            <div class="row text-center mt-3">
+                <div class="col-lg-4 col-md-6 px-3 py-3 b">
+                    <div class="card bg-2">
+                        <div class="card-header py-3 bg-silver">
+                            <h4 class="my-0">Silver</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">Rp 200.000<small class="text-muted fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Service Priority</li>
+                                <li>1x Pet Care</li>
+                                <li>1x Pet Grooming</li>
+                                <li>Discount Pet Shop 5% All Item </li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-outline-dark btn-membership"><i class="ri-phone-fill"></i> Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 px-3 py-3">
+                    <div class="card bg-2 ">
+                        <div class="card-header py-3 bg-gold">
+                            <h4 class="my-0">Gold</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">Rp 400.000<small class="text-muted fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Service Priority</li>
+                                <li>1x Pet Care</li>
+                                <li>2x Pet Grooming</li>
+                                <li>Discount Pet Shop 10% All Item </li>
+                                <li>Discount Pet Cafe 10% All Item </li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-outline-dark btn-membership"><i class="ri-phone-fill"></i> Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 px-3 py-3">
+                    <div class="card bg-2 ">
+                        <div class="card-header py-3 bg-black">
+                            <h4 class="my-0 text-white">Black</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">Rp 400.000<small class="text-muted fw-light">/mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Service Priority</li>
+                                <li>1x Pet Hotel</li>
+                                <li>2x Pet Care</li>
+                                <li>4x Pet Grooming</li>
+                                <li>Discount Pet Shop 15% All Item </li>
+                                <li>Discount Pet Cafe 15% All Item </li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-outline-dark btn-membership"><i class="ri-phone-fill"></i> Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container-fluid bg-1 py-3 font-poppins text-center c-1">
+            <h4 class="mt-2"><i class="ri-instagram-line"></i> <i class="ri-twitter-line"></i> <i class="ri-mail-line"></i></h4>
+            <h5><span class="font-berkshire">Sweety Pet</span> Website</h5>
+            <p><i class="ri-copyright-line"></i> Copyright 2022</p>
+        </div>
+    </section>
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+</body>
+</html>
